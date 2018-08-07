@@ -32,7 +32,7 @@ pipeline {
            sh 'mvn sonar:sonar'
                 echo 'Testing'
             }
-        
+        }
         stage('Package') {
             steps {
                 git 'https://github.com/shilpaaaa/zettamine.git'
