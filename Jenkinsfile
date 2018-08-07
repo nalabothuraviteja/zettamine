@@ -14,7 +14,7 @@ pipeline {
             steps {
                 git 'https://github.com/shilpaaaa/zettamine.git'
                 sh 'mvn compile'
-                echo 'Compileing'
+                echo 'Compile'
             }
         }
         stage('Test') {
